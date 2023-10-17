@@ -1,4 +1,4 @@
-# Monitor VM process CPU utilization using Azure Monitor
+# Use Azure Monitor to view VM process CPU utilization
 
 Troubleshooting performance issues on Virtual Machines can be a tedious and time consuming process. Using Azure Monitor, gain visibility into guest-level performance metrics like CPU utilization at the process level to determine which process is responsible for high CPU utilization.
 
