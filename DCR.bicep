@@ -3,16 +3,16 @@
 
 @description('Name of the data collection rule')
 @minLength(1)
-param dcrName string = 'TestDCR'
+param dcrName string = 'DcrName'
 
 @description('Name of the Log Analytics Workspace')
-param workspaceName string = 'demoworkspacezc2'
+param workspaceName string = 'WorkspaceName'
 
 @description('Log Analytics Workspace Resource Group')
-param workspaceRg string = 'rg-demo'
+param workspaceRg string = 'ResourceGroupName'
 
 @description('The name of the virtual machine.')
-param vmName string = 'DemoVM'
+param vmName string = 'NameOfVm'
 
 @description('Location')
 param location string = resourceGroup().location
