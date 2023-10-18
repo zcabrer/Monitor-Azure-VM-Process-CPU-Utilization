@@ -16,7 +16,7 @@ Follow [this guide](https://learn.microsoft.com/en-us/azure/azure-monitor/agents
 
 The Data Source will be ```Perforamnce Counters``` and will include a custom Data Source for a counter named  ```\Process(*)\% Processor Time```. To add a custom Data Source, select the ```custom``` tab, enter the counter name, and select the checkbox next to the counter.
 
-![image](img1.png)
+![image](images\img1.png)
 
 In Destination, selectAzure Monitor Logs and the Log Analytics Workspace name.
 
@@ -35,6 +35,6 @@ Perf
 | render timechart
 ```
 
-![image](img2.png)
+![image](images\img2.png)
 
 In this example, a VM named ```DemoVM``` has a process called ```CPUSTRES``` consistently consuming 80% of the overall CPU  over a 30 minute timeframe.
